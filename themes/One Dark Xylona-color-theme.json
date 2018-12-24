@@ -14,6 +14,21 @@
 			}
 		},
 		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#A0BACF",
+			}
+		},
+		{
 			"name": "注释",
 			"scope": [
 				"comment",
@@ -28,20 +43,17 @@
 			"name": "变量 函数名 常量 函数参数 tag属性 Embedded",
 			"scope": [
 				"variable",
+				"variable.parameter",
 				"entity.name.function",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method",
 				"meta.block variable.other",
 				"string constant.other.placeholder",
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
+				"constant.escape",	
 			],
 			"settings": {
 				"foreground": "#e5c07b"
@@ -71,6 +83,12 @@
 			"name": "关键字 Storage",
 			"scope": [
 				"keyword",
+				"keyword.control",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"keyword.other.unit",
+				"keyword.other",
+				"keyword.other.special-method",
 				"storage.type",
 				"storage.modifier"
 			],
@@ -81,25 +99,18 @@
 		{
 			"name": "操作符 Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"entity.other.attribute-name",
+				"meta.class-method.js entity.name.function.js",
+				"variable.function.constructor"
 			],
 			"settings": {
 				"foreground": "#56b6c2"
 			}
 		},
 		{
-			"name": "标签tag, 函数调用, git删除 Entity Types",
+			"name": "标签tag, 函数调用, git删除 Entity Types keyword",
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
@@ -119,22 +130,6 @@
 			],
 			"settings": {
 				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#e5c07b"
 			}
 		},
 		{
@@ -218,25 +213,6 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "meta.method.js",
-			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor"
-			],
-			"settings": {
-				"foreground": "#56b6c2"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#56b6c2"
 			}
 		},
 		{

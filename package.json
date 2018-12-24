@@ -11,9 +11,9 @@
     "categories": [
         "Themes"
     ],
-    "repository":{
+    "repository": {
         "type": "git",
-        "url": ""
+        "url": "git@github.com:Lxylona/one-dark-xylona.git"
     },
     "contributes": {
         "themes": [{
