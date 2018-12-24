@@ -1,0 +1,25 @@
+{
+    "name": "xylona",
+    "author": "Xylona",
+    "displayName": "Xylona",
+    "publisher": "xylona",
+    "description": "a beautiful color theme",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository":{
+        "type": "git",
+        "url": ""
+    },
+    "contributes": {
+        "themes": [{
+            "label": "One Dark Xylona",
+            "uiTheme": "vs-dark",
+            "path": "./themes/One Dark Xylona-color-theme.json"
+        }]
+    }
+}
